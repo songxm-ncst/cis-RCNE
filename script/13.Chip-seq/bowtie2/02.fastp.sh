@@ -1,0 +1,4 @@
+fastp -i ./clean_data/SRR6994662_paired_clean_1.fq.gz -o ./SRR6994662/SRR6994662_1.fastq -I ./clean_data/SRR6994662_paired_clean_2.fq.gz -O ./SRR6994662/SRR6994662_2.fastq -h SRR6994662.html -j SRR6994662.json &
+fastp -i ./clean_data/SRR6994663_paired_clean_1.fq.gz -o ./SRR6994663/SRR6994663_1.fastq -I ./clean_data/SRR6994663_paired_clean_2.fq.gz -O ./SRR6994663/SRR6994663_2.fastq -h SRR6994663.html -j SRR6994663.json &
+fastp -i ./clean_data/SRR6994664_paired_clean_1.fq.gz -o ./SRR6994664/SRR6994664_1.fastq -I ./clean_data/SRR6994664_paired_clean_2.fq.gz -O ./SRR6994664/SRR6994664_2.fastq -h SRR6994664.html -j SRR6994664.json &
+fastp -i ./clean_data/SRR6994673_paired_clean_1.fq.gz -o ./SRR6994673/SRR6994673_1.fastq -I ./clean_data/SRR6994673_paired_clean_2.fq.gz -O ./SRR6994673/SRR6994673_2.fastq -h SRR6994673.html -j SRR6994673.json &

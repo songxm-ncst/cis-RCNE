@@ -1,0 +1,1 @@
+for i in maf/*.maf; do x=`basename $i .maf`; phastCons $i phyloFit.mod --target-coverage 0.2 --expected-length 80 --rho 0.4 --msa-format MAF --seqname $x --most-conserved bed/$x.most-cons.bed > wig/$x.wig; done

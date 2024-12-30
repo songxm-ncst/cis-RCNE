@@ -1,0 +1,1 @@
+bigWigAverageOverBed Ath_mulitway.bw Ath_mulitway_most-cons.bed Ath_mulitway.tab

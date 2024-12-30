@@ -1,0 +1,3 @@
+macs2 callpeak -c ../../04.picard/01.PRJNA449932/SRR6994673_picard.sorted.bam -t ../../04.picard/01.PRJNA449932/SRR6994662_picard.sorted.bam -f BAMPE -g 1.25e8 --keep-dup all --name ./01.result/SRR6994662 --bdg --nomodel --extsize 2000 -q 0.01 &
+macs2 callpeak -c ../../04.picard/01.PRJNA449932/SRR6994673_picard.sorted.bam -t ../../04.picard/01.PRJNA449932/SRR6994663_picard.sorted.bam -f BAMPE -g 1.25e8 --keep-dup all --name ./01.result/SRR6994663 --bdg --nomodel --extsize 2000 -q 0.01 &
+macs2 callpeak -c ../../04.picard/01.PRJNA449932/SRR6994673_picard.sorted.bam -t ../../04.picard/01.PRJNA449932/SRR6994664_picard.sorted.bam -f BAMPE -g 1.25e8 --keep-dup all --name ./01.result/SRR6994664 --bdg --nomodel --extsize 2000 -q 0.01 &
